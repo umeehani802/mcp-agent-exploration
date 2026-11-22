@@ -1,0 +1,14 @@
+# Core: official MCP Python SDK (FastMCP server + client session)
+mcp>=1.10
+
+# LangChain agent + MCP adapter
+langchain>=0.3
+langgraph>=0.3
+langchain-mcp-adapters>=0.1
+
+# Pick ONE LLM provider package (see .env.example)
+langchain-anthropic>=0.3
+# langchain-openai>=0.3
+# langchain-ollama>=0.3
+
+python-dotenv>=1.0
